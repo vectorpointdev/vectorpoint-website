@@ -10,10 +10,10 @@ export default function Contact() {
         </p>
 
         <a
-          href="mailto:vectorpoint.dev@gmail.com"
+          href="mailto:andy@vectorpointdev.com"
           className="inline-block rounded-full bg-accent px-8 py-3.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors mb-12"
         >
-          vectorpoint.dev@gmail.com
+          andy@vectorpointdev.com
         </a>
 
         <div className="flex items-center justify-center gap-6 text-text-secondary">
