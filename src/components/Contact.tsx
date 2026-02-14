@@ -19,7 +19,7 @@ export default function Contact() {
         <div className="flex items-center justify-center gap-6 text-text-secondary">
           {/* GitHub */}
           <a
-            href="https://github.com/andykim"
+            href="https://github.com/vector-dev-LLC"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-text transition-colors"
@@ -32,7 +32,7 @@ export default function Contact() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/andykim"
+            href="https://www.linkedin.com/in/helloworldfromandy/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-text transition-colors"
