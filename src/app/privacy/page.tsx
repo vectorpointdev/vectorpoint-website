@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Vector Point Dev",
-  description: "Privacy policy and SMS terms for Vector Point Dev LLC.",
+  title: "Privacy Policy — Vector Point",
+  description: "Privacy policy and SMS terms for Vector Point LLC.",
 };
 
 export default function PrivacyPage() {
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
             href="/"
             className="text-xl font-bold tracking-tight text-text"
           >
-            Vector Point Dev
+            Vector Point
           </Link>
         </div>
       </nav>
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-semibold mb-4">SMS Terms &amp; Privacy</h2>
           <p className="text-text-secondary leading-relaxed">
             By providing your phone number, you agree to receive text messages
-            from Vector Point Dev LLC for identity verification purposes. Message and
+            from Vector Point LLC for identity verification purposes. Message and
             data rates may apply. Message frequency varies. No mobile information
             will be shared with third parties/affiliates for
             marketing/promotional purposes. All other categories exclude text
@@ -41,7 +41,7 @@ export default function PrivacyPage() {
 
         <footer className="border-t border-border pt-8 text-sm text-text-secondary">
           <p>
-            &copy; {new Date().getFullYear()} Vector Point Dev LLC &middot;{" "}
+            &copy; {new Date().getFullYear()} Vector Point LLC &middot;{" "}
             <Link href="/" className="hover:text-text transition-colors">
               Home
             </Link>

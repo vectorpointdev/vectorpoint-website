@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vector Point Dev — Software Development",
+  title: "Vector Point — Software Development",
   description:
     "Design, build, and ship software. Full-stack web, mobile, and AI development.",
 };
