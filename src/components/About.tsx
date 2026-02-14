@@ -33,7 +33,7 @@ export default function About() {
             into real products.
           </p>
           <p className="text-lg text-text-secondary leading-relaxed mb-8">
-            Vector Point is my solo practice. I partner with startups, founders,
+            Vector Point Dev is my solo practice. I partner with startups, founders,
             and teams who need high-quality engineering without the overhead.
             Whether it&apos;s a greenfield build or shipping features on an
             existing product, I bring the same standard: clean code, fast
