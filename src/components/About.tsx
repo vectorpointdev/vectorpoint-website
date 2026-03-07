@@ -5,13 +5,17 @@ const techStack = [
   "Node.js",
   "Swift",
   "SwiftUI",
-  "React Native",
+  "Kotlin",
+  "Jetpack Compose",
   "PostgreSQL",
   "Prisma",
   "Tailwind CSS",
   "Python",
+  "WhisperKit",
   "Claude API",
   "OpenAI",
+  "Plaid",
+  "Stripe",
   "Vercel",
   "AWS",
   "Docker",
@@ -27,16 +31,25 @@ export default function About() {
 
         <div className="glass-card p-8 sm:p-12">
           <p className="text-lg text-text-secondary leading-relaxed mb-4">
-            I&apos;m Andy — a software engineer who loves building products from
-            the ground up. I&apos;ve worked across the stack from databases to
-            design systems, shipped iOS apps and web platforms, and integrated AI
-            into real products.
+            I&apos;m Andy — a staff-level engineer building AI-integrated
+            products solo, from idea to app store. I design, code, and ship
+            across web, iOS, and Android — full stack, no team, no shortcuts.
+          </p>
+          <p className="text-lg text-text-secondary leading-relaxed mb-4">
+            Currently building{" "}
+            <a href="https://don.financial" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-hover transition-colors">Don</a>
+            , an AI-first personal finance app,{" "}
+            <a href="https://hppy.dev" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-hover transition-colors">hppy</a>
+            , a DevOps platform that auto-triages and fixes bugs with AI, and{" "}
+            <span className="text-accent">Vox</span>
+            , a macOS dictation app powered by on-device Whisper and Claude.
+            All live products, built solo end-to-end.
           </p>
           <p className="text-lg text-text-secondary leading-relaxed mb-8">
-            Vector Point is my solo practice. I partner with startups, founders,
-            and teams who need high-quality engineering without the overhead.
-            Whether it&apos;s a greenfield build or shipping features on an
-            existing product, I bring the same standard: clean code, fast
+            Vector Point is my solo practice. I also partner with startups,
+            founders, and teams who need high-quality engineering without the
+            overhead. Whether it&apos;s a greenfield build or shipping features
+            on an existing product, I bring the same standard: clean code, fast
             iteration, and real results.
           </p>
 
