@@ -76,6 +76,30 @@ const featuredProjects = [
     link: "https://github.com/a2k0717/vox-releases/releases",
     status: "Live",
   },
+  {
+    name: "Mano",
+    tagline: "Control your Mac with hand gestures.",
+    description:
+      "macOS menu bar app that uses your webcam to track hand gestures and translate them into mouse movements, clicks, scrolls, and keyboard shortcuts — no extra hardware required.",
+    highlights: [
+      "Real-time hand tracking via Apple Vision framework (on-device ML)",
+      "Gesture-to-action mapping — pinch, point, swipe, and custom gestures",
+      "Cursor control with configurable sensitivity and dead zones",
+      "Custom gesture recording with per-gesture hotkey binding",
+      "Motion smoothing for precise, jitter-free control",
+      "Lightweight menu bar UI with debug overlay",
+    ],
+    tags: [
+      "Swift",
+      "SwiftUI",
+      "Vision",
+      "AVFoundation",
+      "CoreGraphics",
+      "AppKit",
+    ],
+    link: "https://github.com/a2k0717/mano-releases/releases",
+    status: "Live",
+  },
 ];
 
 
