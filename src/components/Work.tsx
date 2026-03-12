@@ -73,7 +73,7 @@ const featuredProjects = [
       "AVFoundation",
       "AppKit",
     ],
-    link: "https://github.com/a2k0717/vox-releases/releases",
+    link: "https://github.com/vectorpointdev/Vox",
     status: "Live",
   },
   {
