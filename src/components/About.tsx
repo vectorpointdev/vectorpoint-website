@@ -17,7 +17,9 @@ const techStack = [
   "Plaid",
   "Stripe",
   "Vercel",
+  "WebSocket",
   "AWS",
+  "Railway",
   "Docker",
 ];
 
@@ -40,7 +42,9 @@ export default function About() {
             <a href="https://don.financial" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-hover transition-colors">Don</a>
             , an AI-first personal finance app,{" "}
             <a href="https://hppy.dev" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-hover transition-colors">hppy</a>
-            , a DevOps platform that auto-triages and fixes bugs with AI, and{" "}
+            , a DevOps platform that auto-triages and fixes bugs with AI,{" "}
+            <a href="https://swarmlink.dev" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-hover transition-colors">Swarmlink</a>
+            , a real-time coordination platform for AI agent teams, and{" "}
             <span className="text-accent">Vox</span>
             , a macOS dictation app powered by on-device Whisper and Claude.
             All live products, built solo end-to-end.

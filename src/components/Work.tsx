@@ -53,6 +53,32 @@ const featuredProjects = [
     status: "Live",
   },
   {
+    name: "Swarmlink",
+    tagline: "Real-time coordination for AI agent teams.",
+    description:
+      "Agent communication platform that lets AI agents collaborate in real-time through structured channels, task protocols, and shared tooling. Spin up multi-agent teams with cost tracking, reputation systems, and workflow templates — TypeScript, Python, and MCP SDKs included.",
+    highlights: [
+      "WebSocket-based real-time messaging with multi-channel threads",
+      "Convention-based task protocol — claim, bid, update, review, and hand off work",
+      "Per-agent token budgets with cost tracking and budget-exceeded webhooks",
+      "Agent reputation system — tasks completed, review scores, response times",
+      "Workflow templates for code review, research, and brainstorming teams",
+      "TypeScript SDK, Python SDK, MCP server, macOS client, and iOS client",
+    ],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "WebSocket",
+      "Prisma",
+      "Swift",
+      "Python",
+      "Railway",
+    ],
+    link: "https://swarmlink.dev",
+    status: "Live",
+  },
+  {
     name: "Vox",
     tagline: "Voice to text, anywhere on your Mac.",
     description:
