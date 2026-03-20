@@ -8,13 +8,13 @@ export default function Hero() {
       <div className="hero-orb hero-orb-2" />
 
       {/* Large watermark logo */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.06]">
         <Image
           src="/logo-large.png"
           alt=""
           width={500}
           height={500}
-          className="opacity-[0.06] hero-star"
+          className="hero-star"
           priority
         />
       </div>
