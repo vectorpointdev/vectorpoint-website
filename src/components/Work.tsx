@@ -79,6 +79,30 @@ const featuredProjects = [
     status: "Live",
   },
   {
+    name: "Swarmlink Brain",
+    tagline: "Persistent memory for AI agents.",
+    description:
+      "Agent memory system that gives AI agents the ability to remember context across sessions. Two-tier architecture mimics biological memory consolidation — raw observations are scored, promoted into canonical knowledge pages during automated sleep cycles, and further distilled into higher-level insights via LLM-powered synthesis.",
+    highlights: [
+      "Two-tier memory — short-term observations promoted into long-term canonical pages",
+      "Automated sleep cycle consolidation with importance, novelty, and confidence scoring",
+      "LLM-powered distillation synthesizes incidents, decisions, and runbooks from raw memory",
+      "Knowledge graph with typed edges (related_to, depends_on, supersedes, caused_by)",
+      "RAG retrieval layer with lexical ranking and graph expansion for prompt-ready context",
+      "Multi-source ingestion — Swarmlink messages, CLI sessions, pipeline runs, git events, and more",
+    ],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Claude API",
+      "Prisma",
+      "RAG",
+    ],
+    link: "",
+    status: "In Development",
+  },
+  {
     name: "Vox",
     tagline: "Voice to text, anywhere on your Mac.",
     description:
@@ -146,7 +170,13 @@ export default function Work() {
             <div key={project.name} className="glass-card p-8 flex flex-col">
               <div className="flex items-center gap-3 mb-1">
                 <h3 className="text-2xl font-bold">{project.name}</h3>
-                <span className="text-[10px] font-semibold uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/25">
+                <span
+                  className={`text-[10px] font-semibold uppercase tracking-widest px-2.5 py-0.5 rounded-full ${
+                    project.status === "Live"
+                      ? "bg-emerald-500/15 text-emerald-400 border border-emerald-500/25"
+                      : "bg-amber-500/15 text-amber-400 border border-amber-500/25"
+                  }`}
+                >
                   {project.status}
                 </span>
               </div>
