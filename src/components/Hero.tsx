@@ -1,23 +1,9 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background orbs */}
       <div className="hero-orb hero-orb-1" />
       <div className="hero-orb hero-orb-2" />
-
-      {/* Large watermark logo */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.06]">
-        <Image
-          src="/logo-large.png"
-          alt=""
-          width={500}
-          height={500}
-          className="hero-star"
-          priority
-        />
-      </div>
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
