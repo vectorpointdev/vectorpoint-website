@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-border py-8 px-6">
       <div className="mx-auto max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-text-secondary">
         <span className="flex items-center gap-1.5">
-          <Image src="/logo.png" alt="" width={14} height={14} className="brightness-200" />
+          <Image src="/logo.png" alt="" width={14} height={14} />
           &copy; {new Date().getFullYear()} vector.dev LLC
         </span>
         <div className="flex gap-6">

@@ -30,7 +30,7 @@ export default function Navbar() {
     >
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2.5 text-xl font-bold tracking-tight text-text">
-          <Image src="/logo.png" alt="" width={28} height={28} className="brightness-200" />
+          <Image src="/logo.png" alt="" width={28} height={28} />
           Vector Point
         </a>
 
