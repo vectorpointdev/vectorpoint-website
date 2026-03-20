@@ -1,4 +1,4 @@
-import StarLogo from "./StarLogo";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -7,9 +7,16 @@ export default function Hero() {
       <div className="hero-orb hero-orb-1" />
       <div className="hero-orb hero-orb-2" />
 
-      {/* Large watermark star */}
+      {/* Large watermark logo */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <StarLogo size={500} className="text-accent/[0.04] hero-star" />
+        <Image
+          src="/logo-large.png"
+          alt=""
+          width={500}
+          height={500}
+          className="opacity-[0.06] hero-star"
+          priority
+        />
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">

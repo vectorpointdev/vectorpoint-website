@@ -1,11 +1,11 @@
-import StarLogo from "./StarLogo";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="border-t border-border py-8 px-6">
       <div className="mx-auto max-w-6xl flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-text-secondary">
         <span className="flex items-center gap-1.5">
-          <StarLogo size={14} className="text-accent" />
+          <Image src="/logo.png" alt="" width={14} height={14} className="brightness-200" />
           &copy; {new Date().getFullYear()} vector.dev LLC
         </span>
         <div className="flex gap-6">
